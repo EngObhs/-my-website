@@ -1,0 +1,104 @@
+/* General Page Settings */
+body {
+    background-color: #121212; /* Dark background */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    outline: none;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-bottom-color: #4a7dff;
+}
+
+.input-group input::placeholder {
+    color: #888;
+}
+
+/* Login Button */
+.btn-login {
+    width: 100%;
+    background-color: #3b6ce6;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+    box-sizing: border-box;
+}
+
+.btn-login:hover {
+    background-color: #2a5bd7;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+    display: block;
+    text-align: right;
+    color: #cccccc;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.forgot-password:hover {
+    color: #fff;
+}
+
+/* Sign Up Link */
+.signup-link {
+    margin-top: 40px;
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+.signup-link a {
+    color: #4a7dff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
